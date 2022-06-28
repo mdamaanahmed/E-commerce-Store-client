@@ -5,7 +5,7 @@ import '../assets/css/featureCard.css'
 const FeatureCard = ({ img, title, company, rating, price, review }) => {
     return (
         <>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
                 <div className="box">
                     <div className="img">
                         <img src={img} alt="" height="100%"/>
