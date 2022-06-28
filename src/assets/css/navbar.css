@@ -1,0 +1,38 @@
+nav {
+    background-color: var(--light-gray);
+    border-bottom: 1px solid var(--middle-gray);
+    padding: 0;
+    height: 58px;
+}
+.container a{
+    color: var(--main) !important;
+}
+nav .container .collapse ul li{
+    position: relative;
+    margin: 0px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+nav .container .collapse ul li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--main);
+    height: 3px;
+    border-radius: 15px 15px 0 0;
+    transition: .2s ease-in-out;
+    width: 0%;
+}
+nav .container .collapse ul li:hover::after{
+    width: 100%;
+}
+nav .container .collapse ul li a{
+    color: var(--gray) !important;
+    padding: 18px 0px;
+    transition: .2s ease-in-out;
+}
+nav .container .collapse ul li a:hover{
+    color: var(--main) !important;
+}

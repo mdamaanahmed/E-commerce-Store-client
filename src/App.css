@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+}
+
+/* global css */
+.light_theme {
+    --main: #560bad;
+    --light-purple: #d1a9ff83;
+    --white: white;
+    --gray: rgb(151, 151, 151);
+    --middle-gray: rgb(235 234 234);
+    --light-gray: rgba(243, 243, 243, 0.603);
+}
+
+
+
+
+
+/* utility classes */
+.outline_button1 {
+    position: relative;
+    border: 1px solid var(--main) !important;
+    background-color: var(--white);
+    color: var(--main);
+    border-radius: 8px;
+    padding: 5px 13px;
+    font-size: 12px;
+    overflow: hidden;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+.outline_button1::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    background-color: var(--main);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+.outline_button1:hover{
+    color: var(--white) !important;
+}
+.outline_button1:hover::before{
+    top: -32%;
+    left: -32%;
+}
+
+.outline_button2 {
+    position: relative;
+    border: 1px solid var(--main) !important;
+    background-color: var(--white);
+    color: var(--main);
+    border-radius: 10px;
+    padding: 8px 13px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    overflow: hidden;
+    z-index: 1;
+    transition: .2s ease-in-out;
+}
+.outline_button2::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    background-color: var(--main);
+    border-radius: 0 15px 15px 0;
+    width: 110%;
+    height: 110%;
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+.outline_button2:hover{
+    color: var(--white) !important;
+}
+.outline_button2:hover::before{
+    right: -10%;
+}
