@@ -9,6 +9,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Register from './pages/Register'
 import Login from './pages/Login'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -28,6 +29,8 @@ const App = () => {
           <Route exact path='/register' element={<Register />} />
         </Route> */}
       </Routes>
+
+      <Footer />
     </>
   )
 }

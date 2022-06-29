@@ -19,6 +19,7 @@ body {
     --main: #560bad;
     --light-purple: #d1a9ff83;
     --white: white;
+    --dark: #000;
     --gray: rgb(151, 151, 151);
     --middle-gray: rgb(235 234 234);
     --light-gray: rgba(243, 243, 243, 0.603);
