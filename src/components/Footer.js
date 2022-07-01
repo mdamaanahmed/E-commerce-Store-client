@@ -5,12 +5,13 @@ import { SiInstagram } from "react-icons/si";
 import { SiSkypeforbusiness } from "react-icons/si";
 import { BsTelegram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+import { SiWhatsapp } from "react-icons/si";
 import '../assets/css/footer.css'
 
 const Footer = () => {
     return (
         <>
-            <div className="footer">
+            <div className="footer container-fluid">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3">
@@ -40,7 +41,18 @@ const Footer = () => {
                                 <BsTelegram className='icon' />
                                 <BsLinkedin className='icon' />
                             </div>
+                            <div className="whatsup">
+                                <SiWhatsapp className='icon'/>
+                                <p>Message Us</p>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12 copyright">
+                        <p>	&#169; 2022 All Right Reserved. </p>
                     </div>
                 </div>
             </div>
