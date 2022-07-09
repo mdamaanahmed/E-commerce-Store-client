@@ -15,20 +15,19 @@ const Shop = () => {
               <p>categories</p>
               <MdOutlineKeyboardArrowDown className='icon' />
             </div>
-            <div className="category_item">
+            <div className="category_items">
               <p className="item">Shirts</p>
               <p className="item">T-Shirts</p>
               <p className="item">Watches</p>
               <p className="item">Shoes</p>
             </div>
           </div>
-          <div className="icon">
-            <FiSearch />
+          <div className="search_icon">
+            <FiSearch className='icon' />
           </div>
         </div>
       </section>
       {/* search section end */}
-
     </>
   )
 }

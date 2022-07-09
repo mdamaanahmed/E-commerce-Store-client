@@ -1,7 +1,7 @@
 .footer {
     background-color: var(--light-gray);
     margin-top: 80px;
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
  .col-lg-3{
     display: flex;
@@ -90,7 +90,7 @@
 .copyright{
     background-color: var(--middle-gray);
     font-size: .80rem;
-    padding: 8px 0px;
+    padding: 4px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
