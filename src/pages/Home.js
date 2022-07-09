@@ -37,6 +37,8 @@ import { SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
+import { TiPlusOutline } from 'react-icons/ti';
+import { TbTriangles } from 'react-icons/tb';
 
 const Home = () => {
   return (
@@ -64,8 +66,8 @@ const Home = () => {
       <section className="feature">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <h1>Feature Products</h1>
+            <div className="col-12 heading_design2 mt-2">
+              <h1><span><TbTriangles /></span> <span><TiPlusOutline /></span> <span><TiPlusOutline /></span> Feature Products</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ipsum atque.</p>
             </div>
             <FeatureCard img={ts1} title='Funkey T-Shirt' company='Calvin Klein' rating='3.8' price='35$' review='3354' />
@@ -99,8 +101,8 @@ const Home = () => {
       <section className="top_rated">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <h1>Top Rated</h1>
+            <div className="col-12 heading_design2">
+              <h1><span><TbTriangles /></span> <span><TiPlusOutline /></span> <span><TiPlusOutline /></span> Top Rated</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ipsum atque.</p>
             </div>
             <Swiper

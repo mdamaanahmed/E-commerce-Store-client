@@ -4,13 +4,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--light-purple);
     border-radius: 20px;
     margin: 0 20px;
     cursor: pointer;
     overflow: hidden;
     transition: .2s ease-in-out;
-    box-shadow: 0px 10px 15px -20px black, 0px 10px 15px -10px black;
+    box-shadow: 0px 1px 21px -15px var(--gray), 0px 50px 45px -40px var(--gray);
 }
 .team .img{
     width: 120px;
@@ -43,10 +42,10 @@
     align-items: flex-end;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)70%,rgba(0, 0, 0, 0.514) 100%);
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)70%,rgba(0, 0, 0, 0.514) 100%); */
     position: absolute;
     top: 100%;
-    transition: .2s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .team:hover .content .social_midea{
     top: 0;
@@ -57,9 +56,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--main);
+    border: 2px solid var(--light-purple);
     border-radius: 50%;
-    margin: 20px 10px;
+    margin: 20px 8px;
     cursor: pointer;
     transition: .2s ease-in-out;
 }

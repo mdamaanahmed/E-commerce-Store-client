@@ -2,6 +2,8 @@ import React from 'react'
 import '../assets/css/about.css'
 import about_bg from '../assets/images/about_bg.jpg'
 import { IoCheckmarkDone } from 'react-icons/io5';
+import { TiPlusOutline } from 'react-icons/ti';
+import { TbTriangles } from 'react-icons/tb';
 import TeamCard from '../components/TeamCard'
 import team1 from '../assets/images/team1.jpg'
 import team2 from '../assets/images/team2.jpg'
@@ -55,13 +57,13 @@ const About = () => {
         <div className="team_cards">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 heading_design1">
-              <h1>Team Members</h1>
+            <div className="col-lg-12 heading_design2">
+              <h1><span><TbTriangles /></span> <span><TiPlusOutline /></span> <span><TiPlusOutline /></span> Team Members</h1>
               <p>any time active team members</p>
             </div>
             <TeamCard img={team3} name='Mr. Ajay' role='Head Of Departments' />
             <TeamCard img={team1} name='Mr. Himanshu Mishra' role='CEO' />
-            <TeamCard img={team2} name='Mr. Nishant Sharma' role='Manager' />
+            <TeamCard img={team2} name='Mr. Nishant Singh' role='Manager' />
           </div>
         </div>
         </div>

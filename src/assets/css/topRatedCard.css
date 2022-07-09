@@ -1,18 +1,6 @@
-.top_rated .col-12{
+/* .top_rated .col-12{
     padding: 50px 100px;
-}
-.top_rated .col-12 > h1{
-    font-size: 2.6rem;
-    font-weight: 600;
-    color: var(--dark);
-    text-align: center;
-    letter-spacing: 1px;
-}
-.top_rated .col-12 > p{
-    font-size: .80rem;
-    color: var(--gray);
-    text-align: center;
-}
+} */
 .top_rated .shadows{
     border-radius: 25px;
     background-color: var(--light-purple);
