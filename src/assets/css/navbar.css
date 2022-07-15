@@ -4,7 +4,7 @@ nav {
     padding: 0;
     height: 58px;
 }
-.container a{
+nav .container a{
     color: var(--main) !important;
 }
 nav .container .collapse ul li{
@@ -36,3 +36,50 @@ nav .container .collapse ul li a{
 nav .container .collapse ul li a:hover{
     color: var(--main) !important;
 }
+nav .button{
+    display: flex;
+    align-items: center;
+}
+nav .button > button:nth-child(1){
+    position: relative;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: var(--gray);
+    margin-right: 25px;
+    transition: .3s ease-in-out;
+}
+nav .button > button:nth-child(1):hover{
+    color: var(--main);
+}
+nav .button > button:nth-child(1) span{
+    position: absolute;
+    bottom: 1px;
+    right: -1px;
+    font-size: 11px;
+    font-weight: 600;
+    width: 12px;
+    height: 12px;
+    color: var(--white);
+    background-color: var(--second);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+nav .button .profile{
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--middle-gray);
+    border-radius: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+nav .button .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+

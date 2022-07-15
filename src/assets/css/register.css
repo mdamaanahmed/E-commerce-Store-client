@@ -1,0 +1,110 @@
+.register {
+    position: relative;
+    margin: 60px 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 20px var(--middle-gray);
+}
+.register .col-lg-6:nth-child(1) .img {
+    height: 500px;
+    width: 500px;
+} 
+.register .col-lg-6:nth-child(2){
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.register .col-lg-6:nth-child(2)::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 1px;
+    height: 410px;
+    background-color: var(--middle-gray);
+}
+.register .col-lg-6:nth-child(2) h3{
+    color: var(--dark);
+    font-weight: 600;
+}
+.register .col-lg-6:nth-child(2) .span2{
+    position: absolute;
+    top: -75px;
+    right: 30px;
+    width: 4px;
+    height: 370px;
+    border-radius: 14px;
+    background-color: var(--second);
+    transform: rotate(-43deg);
+    z-index: -1;
+}
+.register .col-lg-6:nth-child(2) .span3{
+    position: absolute;
+    top: -80px;
+    right: 15px;
+    width: 4px;
+    height: 340px;
+    border-radius: 14px;
+    background-color: var(--second);
+    transform: rotate(-43deg);
+    z-index: -1;
+}
+.register .col-lg-6:nth-child(2) .register_fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div p{
+    color: var(--dark);
+    font-size: .80rem;
+    font-weight: 700;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div p span{
+    color: var(--gray);
+    font-size: .80rem;
+    font-weight: 400;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div label{
+    font-weight: 600;
+    font-size: .90rem;
+    margin-bottom: 4px;
+    padding: 0 8px;
+    transition: .2s ease-in-out;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div:focus-within label,
+.register .col-lg-6:nth-child(2) .register_fields > div:hover label{
+    color: var(--second);
+}
+.register .col-lg-6:nth-child(2) .register_fields > div input{
+    width: 300px;
+    color: var(--dark);
+    outline: none;
+    padding: 6px 5px;
+    border-radius: 8px;
+    border: 1px solid var(--dark);
+    margin-bottom: 20px;
+    transition: .2s ease-in-out;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div:focus-within input,
+.register .col-lg-6:nth-child(2) .register_fields > div:hover input{
+    border-color: var(--second);
+}
+.register .col-lg-6:nth-child(2) .register_fields >div button{
+    align-self: center;
+}
+.register .col-lg-6:nth-child(2) .register_fields > div a {
+    align-self: center;
+    font-size: .80rem;
+    margin-top: 30px;
+}
+    

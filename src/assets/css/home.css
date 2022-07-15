@@ -52,6 +52,9 @@
     width: 160px;
     margin: 0px 10px;
 }
+.swiper{
+    margin-bottom: 50px;
+}
 .swiper-wrapper{
     padding: 20px 0px;
 }

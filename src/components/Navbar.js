@@ -1,8 +1,17 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import '../assets/css/navbar.css'
+import { IoBagHandleOutline } from "react-icons/io5";
+import Cart from './Cart';
+import team1 from '../assets/images/team1.jpg'
 
 const Navbar = () => {
+  let navigate = useNavigate()
+
+  const redirectOnLogin = () => {
+    navigate('/login')
+  }
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -27,8 +36,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <button className='outline_button1'>Sign in</button>
+          <div className='button'>
+            <button type='button' data-bs-toggle="modal" data-bs-target="#staticBackdrop"><IoBagHandleOutline /> <span>1</span></button>
+            <Cart />
+            <button className='outline_button1' onClick={redirectOnLogin}>Sign in</button>
+            <div className="profile">
+              <img src={team1} alt="" />
+            </div>
           </div>
         </div>
       </nav>
