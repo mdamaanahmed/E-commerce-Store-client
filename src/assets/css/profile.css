@@ -1,0 +1,48 @@
+.profile{
+    
+}
+.profile .sidemenu{
+    /* background-color: var(--light-gray); */
+    padding: 0 20px;
+}
+.profile .sidemenu h2{
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.profile .sidemenu > div{
+    padding: 3px 0px;
+}
+.profile .sidemenu div > p{
+    color: var(--gray);
+    font-weight: 500;
+    font-size: .90rem;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.profile .sidemenu div > p:hover{
+    background-color: var(--light-purple);
+    color: var(--main);
+}
+.active_p_color{
+    background-color: var(--light-purple);
+    color: var(--main) !important;
+}
+.profile .sidemenu div > p .icon{
+    color: var(--gray);
+    font-size: 22px;
+    margin-right: 8px;
+    background-color: transparent !important;
+    transition: .3s ease-in-out;
+}
+.profile .sidemenu p:hover .icon{
+    color: var(--main);
+    background-color: transparent !important;
+}
+

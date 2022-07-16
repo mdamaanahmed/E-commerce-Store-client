@@ -41,7 +41,9 @@ const Navbar = () => {
             <Cart />
             <button className='outline_button1' onClick={redirectOnLogin}>Sign in</button>
             <div className="profile">
-              <img src={team1} alt="" />
+              <Link to="/profile">
+                <img src={team1} alt="" />
+              </Link>
             </div>
           </div>
         </div>
