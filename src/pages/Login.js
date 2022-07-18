@@ -15,8 +15,8 @@ const Login = () => {
               <span className='span3'></span>
               <div className='login_fields'>
                 <div>
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id='email' name='email' placeholder='email address here' />
+                  <label htmlFor="email">Phone/Email</label>
+                  <input type="text" id='email' name='email' placeholder='phone number or email' />
                 </div>
                 <div>
                   <label htmlFor="password">Password</label>

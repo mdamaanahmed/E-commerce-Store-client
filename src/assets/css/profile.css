@@ -1,17 +1,14 @@
 .profile{
-    
+    margin: 20px 0;
 }
 .profile .sidemenu{
-    /* background-color: var(--light-gray); */
-    padding: 0 20px;
+    width: 100%;
+    margin-bottom: 110px;
 }
 .profile .sidemenu h2{
     color: var(--dark);
     font-weight: 600;
     margin-bottom: 30px;
-}
-.profile .sidemenu > div{
-    padding: 3px 0px;
 }
 .profile .sidemenu div > p{
     color: var(--gray);
@@ -45,4 +42,70 @@
     color: var(--main);
     background-color: transparent !important;
 }
+.profile .profile_content{
+    margin: 35px 0;
+    border-radius: 8px;
+    background-color: var(--light-gray);
+    padding: 20px;
+}
+.profile .profile_content h4{
+    text-align: center;
+}
+.profile .profile_content p{
+    font-size: .90rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    border-bottom: 1px solid var(--middle-gray);
+    padding: 0;
+    margin: 20px 0px;
+}
+.profile .profile_content .details .img{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+.profile .profile_content .details .img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--gray);
+}
+.profile .profile_content .details .img .change_image{
+    margin: 0 20px;
+    border: 1px solid var(--gray);
+    outline: none;
+    background-color: var(--white);
+    color: var(--gray);
+    border-radius: 5px;
+    width: 130px;
+    text-align: center;
+    font-size: .90rem;
+    cursor: pointer;
+}
+.profile .profile_content label{
+    color: var(--gray);
+    font-size: .90rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.profile .profile_content input{
+    margin-bottom: 20px;
+}
+.profile .profile_content .addresses .data{
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+    margin: 20px 0;
+}
+.profile .profile_content .addresses .data .icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.profile .profile_content .addresses .data > div h6{
+    margin: 10px 0;
+}
+
+
 

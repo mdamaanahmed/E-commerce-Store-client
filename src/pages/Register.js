@@ -28,15 +28,15 @@ const Register = () => {
                   <input type="text" id='name' name='name' placeholder='enter your name' />
                 </div>
                 <div>
-                  <label htmlFor="phone">Phone/Email *</label>
-                  <input type="number" id='phone' name='phone' placeholder='phone number' />
+                  <label htmlFor="email">Phone/Email *</label>
+                  <input type="text" id='email' name='email' placeholder='phone number or email' />
                 </div>
                 <div>
                   <label htmlFor="password">Password *</label>
                   <input type="password" id='password' name='password' placeholder='password' />
                 </div>
                 <div>
-                  <p>Note: <span>password should be atleast 8 charecters longer</span></p>
+                  <p>Note: <span>password must be 8 charecters longer</span></p>
                 </div>
                 <div>
                   <button className='outline_button1'>SignUp</button>
